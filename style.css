@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Headland+One&family=Lato:wght@300&family=Licorice&family=Moon+Dance&display=swap');
+:root {
+    --main-bg-color: #b08f8c;
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: sticky;
+    /* bottom: 0; */
+    top: 0;
+}
+body{
+    background-color:antiquewhite
+}
+nav{
+    display: flex;
+    align-items: center;
+    height: 89px;
+    background: var(--main-bg-color);
+    color: white;
+    position: sticky;
+    cursor: pointer;
+}
+nav img{
+    width: 77px;
+    margin: 0 12px;
+    border-radius:63px ;
+}
+nav img span{
+    font-size: 35px;
+    
+    font-family: 'Lato', sans-serif;
+}
+nav ul{
+    display: flex;
+    margin: 0 40px;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul li:hover{
+    font-weight: bolder;
+}
+.container{
+    height: calc(100vh - 89px - 10vh);
+    background-color: blue;
+    color: white;
+    width: 70%;
+    margin: 25px 230px;
+    background-image: url(music.jpg);
+
+    
+}
+
+.songItem{
+    margin: 25px 29px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    color: black;
+    width: 34vw;
+    border-radius: 9px;
+    cursor: pointer;
+
+}
+.songname{
+    padding: 0 67px
+}
+
+#Progressbar{
+    width: 80vw;
+    cursor: pointer;
+}
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.bottom{
+    
+    position: sticky;
+    bottom: 0;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+
+}
+.songInfo{
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 554px;
+    /* margin: 12px 0; */
+    padding: 10px 0;
+}
+
+#gif{
+    width: 20px;
+    opacity: 0;
+}
+.icon{
+    position: relative;
+    top: 19px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+footer{
+    background-color: var(--main-bg-color);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    font-family: 'Lato', sans-serif;
+}
